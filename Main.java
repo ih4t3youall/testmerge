@@ -9,6 +9,7 @@ public class Main {
     System.out.println(sum(2,3));
     System.out.println(resta(2,3));
     System.out.println(mult(2,3));
+    System.out.println(division(2,3));
   }
 
   private int sum(int a, int b){
@@ -27,5 +28,9 @@ public class Main {
     int varb = b;
     int result = vara * varb;
     return result;
+  }
+
+  private int division(int a , int b){
+    return a/b;
   }
 }
