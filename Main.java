@@ -2,45 +2,30 @@ public class Main {
 
 
   public static void main(String [] args){
-  
     new Main();
   }
 
   public Main(){
-    int a = 2;
-    int b = 3;
-    int result = sum(a,b);
-    System.out.println(result);
-    result = resta(a,b);
-    System.out.println(result);
-    result = mult(a,b);
-    System.out.println(result);
+    System.out.println(sum(2,3));
+    System.out.println(resta(2,3));
+    System.out.println(mult(2,3));
   }
 
   private int sum(int a, int b){
-  
-    int vara = a;
-    int varb = b;
-    int result = vara + varb;
-    return result;
-  
+    return a+b;
   }
 
-  private int resta(int a, intb){
+  private int resta(int a, int b){
     int vara = a;
     int varb = b;
-    int result = vara+varb;
+    int result = vara-varb;
     return result;
   }
-
 
   private int mult(int a, int b){
     int vara = a;
     int varb = b;
-    int result = vara + varb;
+    int result = vara * varb;
     return result;
   }
-
-
-
 }
